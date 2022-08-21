@@ -3,6 +3,5 @@ file Submission Testing System with sending emails
 <br>
 
 
-<br><hr><br>
-
+<br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
