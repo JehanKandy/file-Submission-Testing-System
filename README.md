@@ -27,6 +27,7 @@ Start the System
   - - - lib/views/reg.php
   - - - lib/views/reset_pass.php
   - js
+  - - js/script.js
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
