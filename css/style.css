@@ -43,6 +43,19 @@ font-family: 'Teko', sans-serif;
     border: 1px solid rgb(185, 185, 185);
 }
 
+.reg-content {
+    width: 590px;
+    height: 800px;
+    background: none;
+    background-position: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
 .login-title {
     text-align: center;
     padding-top: 20px;
@@ -82,10 +95,17 @@ font-family: 'Teko', sans-serif;
     box-shadow: 0 2px 4px 0 rgba(46, 46, 46, 0.678), 0 3px 10px 0 rgba(68, 68, 68, 0.596);
 }
 
+
+/*
+
+*   laptop Screen size
+
+*/
+
 @media only screen and (max-width: 1400px) {
     .login-content {
         width: 590px;
-        height: 400px;
+        height: 500px;
         background: none;
         background-position: center;
         margin-left: 400px;
@@ -97,10 +117,17 @@ font-family: 'Teko', sans-serif;
     }
 }
 
+
+/*
+
+*   ipad - portrait
+
+*/
+
 @media screen and (max-width: 768px) {
     .login-content {
         width: 590px;
-        height: 400px;
+        height: 500px;
         background: none;
         background-position: center;
         margin-left: 100px;
@@ -112,10 +139,17 @@ font-family: 'Teko', sans-serif;
     }
 }
 
+
+/*
+
+*   ipad - landscape 
+
+*/
+
 @media screen and (min-width: 1023px) and (max-width: 1024px) {
     .login-content {
         width: 590px;
-        height: 400px;
+        height: 500px;
         background: none;
         background-position: center;
         margin-left: 200px;
@@ -127,10 +161,17 @@ font-family: 'Teko', sans-serif;
     }
 }
 
+
+/*
+
+*   iphone X - portrait 
+
+*/
+
 @media screen and (max-width: 375px) {
     .login-content {
         width: 310px;
-        height: 400px;
+        height: 500px;
         background: none;
         background-position: center;
         margin-left: 30px;
@@ -148,10 +189,17 @@ font-family: 'Teko', sans-serif;
     }
 }
 
+
+/*
+
+*   iphone X - landscape 
+
+*/
+
 @media screen and (min-width: 811px) and (max-width: 812px) {
     .login-content {
         width: 590px;
-        height: 400px;
+        height: 500px;
         background: none;
         background-position: center;
         margin-left: 100px;
