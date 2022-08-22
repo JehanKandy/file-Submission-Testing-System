@@ -23,3 +23,20 @@ font-family: 'Teko', sans-serif;
 .footer hr {
     border-top: 3px solid rgb(224, 224, 224);
 }
+
+.footer-body {
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.login-content {
+    width: 590px;
+    height: 200px;
+    background-color: aqua;
+    background-position: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
