@@ -4,7 +4,7 @@
 
 <div class="login-content">
     <div class="login-title">
-        <i class="fas fa-user-alt"></i> Login Here
+        <i class="fas fa-user-alt"></i> Register Here
     </div>
     <div class="login-body">
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
