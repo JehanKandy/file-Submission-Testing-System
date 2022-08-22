@@ -82,5 +82,16 @@ font-family: 'Teko', sans-serif;
 }
 
 @media only screen and (max-width: 1400px) {
-    
+    .login-content {
+        width: 590px;
+        height: 400px;
+        background: none;
+        background-position: center;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 75px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        border: 1px solid rgb(185, 185, 185);
+    }
 }
