@@ -15,7 +15,7 @@
             <input type="submit" value="Login" name="login" class="login-btn">
         </form>
         <hr>
-        Don't have an Account ? <a href="lib/views/reg.php">Create One</a>
+        Already have an Account ? <a href="../../index.php">Login</a>
     </div>
 </div>
 
