@@ -13,7 +13,7 @@
             <label for="Email">Email : </label><br>
             <input type="email" name="email" id="email" class="login-input" required><br>
             <label for="Password">Password : </label><br>
-            <input type="text" name="username" id="username" class="login-input" required><br>
+            <input type="password" name="password" id="password" class="login-input" required><br>
             <label for="Cpassword">Confirm Password : </label><br>
             <input type="password" name="cpassword" id="cpassword" class="login-input" required>
             <input type="submit" value="Login" name="login" class="login-btn">
