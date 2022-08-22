@@ -70,5 +70,5 @@ font-family: 'Teko', sans-serif;
     height: 50px;
     border-radius: 5px;
     border: none;
-    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea);
+    background-color: rgb(69, 144, 241);
 }
