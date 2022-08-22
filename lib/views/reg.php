@@ -16,7 +16,7 @@
             <input type="password" name="password" id="password" class="login-input" required><br>
             <label for="Cpassword">Confirm Password : </label><br>
             <input type="password" name="cpassword" id="cpassword" class="login-input" required>
-            <input type="submit" value="Login" name="login" class="login-btn">
+            <input type="reset" value="Clear" class="clear-btn">
         </form>
         <hr>
         Already have an Account ? <a href="../../index.php">Login</a>
