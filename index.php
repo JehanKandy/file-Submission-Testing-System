@@ -5,11 +5,11 @@
     <div class="login-title">
         <i class="fas fa-user-alt"></i> Login Here
     </div>
+    <hr>
     <div class="login-body">
-        <hr>
-            Username
-        <hr>
+        Username
     </div>
+    <hr>
 </div>
 
 
