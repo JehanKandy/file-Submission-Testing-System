@@ -71,6 +71,7 @@ font-family: 'Teko', sans-serif;
     border-radius: 5px;
     border: none;
     background-color: rgb(61, 140, 243);
+    cursor: pointer;
     transition: 0.5s;
 }
 
