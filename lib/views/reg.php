@@ -13,9 +13,9 @@
             <label for="Email">Email : </label><br>
             <input type="email" name="email" id="email" class="login-input" required><br>
             <label for="Password">Password : </label><br>
-            <input type="password" name="password" id="password" class="login-input" required><br>
+            <input type="password" name="password" id="password" class="login-input" onkeyup="pwdcheck()" required><br>
             <label for="Cpassword">Confirm Password : </label><br>
-            <input type="password" name="cpassword" id="cpassword" class="login-input" required>
+            <input type="password" name="cpassword" id="cpassword" class="login-input" onkeyup="pwdcheck()" required>
             <input type="reset" value="Clear" class="clear-btn">
             <input type="submit" value="Register" name="register" class="reg-btn">
         </form>
