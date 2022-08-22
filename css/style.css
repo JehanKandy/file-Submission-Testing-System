@@ -49,3 +49,8 @@ font-family: 'Teko', sans-serif;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
 }
+
+.login-body {
+    padding-top: 30px;
+    padding-left: 70px;
+}
