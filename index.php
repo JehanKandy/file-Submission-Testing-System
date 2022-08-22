@@ -14,6 +14,7 @@
             <input type="submit" value="Login" name="login" class="login-btn">
         </form>
         <a href="lib/views/reset_pass.php">Forget Password ? </a>
+        Don't have an Account ? <a href="lib/views/reg.php">Create One</a>
     </div>
 </div>
 
