@@ -1,205 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Kdam+Thmor+Pro&family=Roboto+Flex:opsz@8..144&family=Rubik&family=Teko:wght@300&display=swap');
+<?php include("lib/layouts/header.php"); ?>
+<?php include("lib/layouts/nav.php"); ?>
 
-/*
-
-use font families
-
-font-family: 'Bebas Neue', cursive;
-font-family: 'Fjalla One', sans-serif;
-font-family: 'Kdam Thmor Pro', sans-serif;
-font-family: 'Roboto Flex', sans-serif;
-font-family: 'Rubik', sans-serif;
-font-family: 'Teko', sans-serif;
-*/
-
-.footer {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(245, 245, 245);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.footer hr {
-    border-top: 3px solid rgb(224, 224, 224);
-}
-
-.footer-body {
-    padding-bottom: 5px;
-    text-align: center;
-    font-family: 'Roboto Flex', sans-serif;
-}
-
-.login-content {
-    width: 590px;
-    height: 500px;
-    background: none;
-    background-position: center;
-    margin-left: 550px;
-    margin-right: 550px;
-    margin-top: 75px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    border: 1px solid rgb(185, 185, 185);
-}
-
-.login-title {
-    text-align: center;
-    padding-top: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-}
-
-.login-body {
-    padding-top: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
-    font-size: 18px;
-}
-
-.login-input {
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    border: 1px solid rgb(192, 192, 192);
-}
-
-.login-btn {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(61, 140, 243);
-    cursor: pointer;
-    color: white;
-    transition: 0.5s;
-}
-
-.login-btn:hover {
-    background-color: rgb(46, 133, 247);
-    box-shadow: 0 2px 4px 0 rgba(46, 46, 46, 0.678), 0 3px 10px 0 rgba(68, 68, 68, 0.596);
-}
+<div class="login-content">
+    <div class="login-title">
+        <i class="fas fa-user-alt"></i> Login Here
+    </div>
+    <div class="login-body">
+        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
+            <label for="Username">Username : </label><br>
+            <input type="text" name="username" id="username" class="login-input" required><br>
+            <label for="Password">Password : </label><br>
+            <input type="password" name="password" id="password" class="login-input" required>
+            <input type="submit" value="Login" name="login" class="login-btn">
+        </form>
+        <a href="lib/views/reset_pass.php">Forget Password ? </a><br>
+        <hr>
+        Don't have an Account ? <a href="lib/views/reg.php">Create One</a>
+    </div>
+</div>
 
 
-/*
-
-*   laptop Screen size
-
-*/
-
-@media only screen and (max-width: 1400px) {
-    .login-content {
-        width: 590px;
-        height: 500px;
-        background: none;
-        background-position: center;
-        margin-left: 400px;
-        margin-right: 400px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        border: 1px solid rgb(185, 185, 185);
-    }
-}
-
-
-/*
-
-*   ipad - portrait
-
-*/
-
-@media screen and (max-width: 768px) {
-    .login-content {
-        width: 590px;
-        height: 500px;
-        background: none;
-        background-position: center;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        border: 1px solid rgb(185, 185, 185);
-    }
-}
-
-
-/*
-
-*   ipad - landscape 
-
-*/
-
-@media screen and (min-width: 1023px) and (max-width: 1024px) {
-    .login-content {
-        width: 590px;
-        height: 500px;
-        background: none;
-        background-position: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        border: 1px solid rgb(185, 185, 185);
-    }
-}
-
-
-/*
-
-*   iphone X - portrait 
-
-*/
-
-@media screen and (max-width: 375px) {
-    .login-content {
-        width: 310px;
-        height: 500px;
-        background: none;
-        background-position: center;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        border: 1px solid rgb(185, 185, 185);
-    }
-    .login-body {
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 18px;
-    }
-}
-
-
-/*
-
-*   iphone X - landscape 
-
-*/
-
-@media screen and (min-width: 811px) and (max-width: 812px) {
-    .login-content {
-        width: 590px;
-        height: 500px;
-        background: none;
-        background-position: center;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 75px;
-        margin-bottom: 50px;
-        border-radius: 10px;
-        border: 1px solid rgb(185, 185, 185);
-    }
-    .login-body {
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 18px;
-    }
-}
+<?php include("lib/layouts/footer.php"); ?>
