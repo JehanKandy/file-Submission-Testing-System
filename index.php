@@ -2,7 +2,9 @@
 <?php include("lib/layouts/nav.php"); ?>
 
 <div class="login-content">
-    HI all
+    <div class="login-title">
+        <i class="fas fa-user-alt"></i> Login Here
+    </div>
 </div>
 
 
