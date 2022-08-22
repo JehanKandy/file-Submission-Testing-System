@@ -10,7 +10,7 @@ file Submission Testing System with sending emails
 
 <br><hr><br>
 <b>22 August 2022</b>
-  1. DEVELOP 
+  1. UPDATE 
   - index.php
 
 <br><hr>
