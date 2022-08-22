@@ -113,6 +113,19 @@ font-family: 'Teko', sans-serif;
     box-shadow: 0 2px 4px 0 rgba(46, 46, 46, 0.678), 0 3px 10px 0 rgba(68, 68, 68, 0.596);
 }
 
+.reg-btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 49%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(61, 140, 243);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
 
 /*
 
