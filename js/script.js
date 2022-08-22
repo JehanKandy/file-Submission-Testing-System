@@ -1,5 +1,5 @@
 var pwdcheck = function() {
-    if (document.getElementById('password').value == document.getElementById('cpassword')) {
+    if (document.getElementById('password').value == document.getElementById('cpassword').value) {
 
     }
 }
