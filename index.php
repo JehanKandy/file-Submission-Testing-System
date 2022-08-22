@@ -6,8 +6,12 @@
         <i class="fas fa-user-alt"></i> Login Here
     </div>
     <div class="login-body">
-        Username
-    <hr>
+        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
+            <label for="Username">Username : </label><br>
+            <input type="text" name="username" id="username">
+    
+        </form>
+    </div>
 </div>
 
 
