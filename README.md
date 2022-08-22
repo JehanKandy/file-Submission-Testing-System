@@ -4,8 +4,9 @@ file Submission Testing System with sending emails
 
 
 # DEVELOPMENT HISTORY
-<b>22 August 2022</b>
-
+<b>21 August 2022</b>
+  1. DEVELOP 
+  - index.php
 
 
 <br><hr>
