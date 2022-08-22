@@ -41,3 +41,8 @@ font-family: 'Teko', sans-serif;
     margin-bottom: 50px;
     border-radius: 10px;
 }
+
+.login-title {
+    text-align: center;
+    padding-top: 20px;
+}
