@@ -13,7 +13,8 @@
             <input type="password" name="password" id="password" class="login-input" required>
             <input type="submit" value="Login" name="login" class="login-btn">
         </form>
-        <a href="lib/views/reset_pass.php">Forget Password ? </a>
+        <a href="lib/views/reset_pass.php">Forget Password ? </a><br>
+        <hr>
         Don't have an Account ? <a href="lib/views/reg.php">Create One</a>
     </div>
 </div>
