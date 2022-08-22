@@ -92,7 +92,7 @@ font-family: 'Teko', sans-serif;
 @media only screen and (max-width: 1400px) {
     .login-content {
         width: 590px;
-        height: 400px;
+        height: 500px;
         background: none;
         background-position: center;
         margin-left: 400px;
