@@ -20,6 +20,7 @@ file Submission Testing System with sending emails
   - - lib/layouts
   - - - lib/layouts/nav.php
   - - - lib/layouts/header.php
+  - - - lib/layouts/footer.php
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
