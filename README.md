@@ -34,5 +34,6 @@ Start the System
 1. UPDATE
   - lib/views/reg.php
   - js/script.js
+  - css/style.css
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
