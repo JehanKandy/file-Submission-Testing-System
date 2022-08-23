@@ -7,7 +7,9 @@ function validateform() {
     }
     var useremail = document.forms["regform"]["email"].value
     if (useremail == "" || useremail == null) {
-        document.getElementById('')
+        document.getElementById('uemail').style.color = '#ff3f34';
+        document.getElementById('uemail').innerHTML = '<span>Email Cannot be empty</span>';
+        return false;
     }
 
 
