@@ -13,14 +13,17 @@ function validateform() {
         return false;
     }
 
-    var usernlength = usern.length;
-    if (usernlength > 5 && usernlength < 20) {
-        let textusern = document.getElementById('usernlength').innerHTML;
-        document.getElementById('usernlength').style.color = '#0f0';
-        document.getElementById('usernlength').innerHTML = '<i class="fas fa-exclamation-triangle"></i> Username at least 5 characters', '<i class="fas fa-exclamation-triangle"></i> Username at least 5 characters';
+    //standard email address chack
+    var standardemail = /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+){.[a-z]+}?$/
+
+    if (standardemail.text(useremail)) {
+        alert("Hi");
+    } else {
+        alert("No");
     }
 
 }
+
 
 
 var pwdcheck = function() {
