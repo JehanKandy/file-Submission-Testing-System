@@ -16,7 +16,7 @@ function validateform() {
     var usernlength = usern.length;
     if (usernlength < 5 && usernlength > 20) {
         document.getElementById('usernlength').style.color = '#0f0';
-        document.getElementById('usernlength').innerHTML = '<span></span>';
+        document.getElementById('usernlength').innerHTML = '<span> <i class="fas fa-check-circle"></i> Username at least 5 characters</span>';
     }
 
 }
