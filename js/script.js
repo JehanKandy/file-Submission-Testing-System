@@ -35,8 +35,9 @@ function validateform() {
         return false;
     }
 
-    
-
-
-
+    if (passuser != cpassuser) {
+        document.getElementById('ucpwd').style.color = '#ff3f34';
+        document.getElementById('ucpwd').innerHTML = '<span style="font-size:12px;">Passwords not match...!</span>';
+        return false;
+    }
 }
