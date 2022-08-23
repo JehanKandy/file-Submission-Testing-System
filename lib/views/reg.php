@@ -16,9 +16,11 @@
             <label for="Password">Password : </label><br>
             <input type="password" name="password" id="password" class="login-input" ><span id="upwd"></span><br>
             <label for="Cpassword">Confirm Password : </label><br>
-            <input type="password" name="cpassword" id="cpassword" class="login-input" ><span id="ucpwd"></span>
+            <input type="password" name="cpassword" id="cpassword" class="login-input" ><span id="ucpwd"></span><br>
+            <p id="passerror"></p>
             <input type="reset" value="Clear" class="clear-btn">
             <input type="submit" value="Register" name="register" class="reg-btn">
+
         </form>
         <hr>
         Already have an Account ? <a href="../../index.php">Login</a>
