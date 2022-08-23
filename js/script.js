@@ -2,7 +2,7 @@ function validateform() {
     var usern = document.forms["regform"]["username"].value
     if (usern == "" || usern == null) {
         document.getElementById('uname').style.color = '#ff3f34';
-        document.getElementById('uname').innerHTML = '<span>Username connot be empty</span>';
+        document.getElementById('uname').innerHTML = '<span style="font-size:12px;">Username connot be empty</span>';
         document.getElementById('username').style.borderColor = '#ff3f34';
         return false;
     }
@@ -12,6 +12,8 @@ function validateform() {
         document.getElementById('uemail').innerHTML = '<span>Email Cannot be empty</span>';
         return false;
     }
+    
+    var usernlength = usern.length;
 
 
 }
