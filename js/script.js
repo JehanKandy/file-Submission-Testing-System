@@ -14,9 +14,10 @@ function validateform() {
     }
 
     var usernlength = usern.length;
-    if (usernlength < 5 && usernlength > 20) {
+    if (usernlength > 5 && usernlength < 20) {
+        let textusern = document.getElementById('usernlength').innerHTML;
         document.getElementById('usernlength').style.color = '#0f0';
-        document.getElementById('usernlength').innerHTML = '<span> <i class="fas fa-check-circle"></i> Username at least 5 characters</span>';
+        document.getElementById('usernlength').innerHTML = '<i class="fas fa-exclamation-triangle"></i> Username at least 5 characters', '<i class="fas fa-exclamation-triangle"></i> Username at least 5 characters';
     }
 
 }
