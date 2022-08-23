@@ -1,4 +1,5 @@
 function validateform() {
+    var usern = document.forms["regform"]["username"].value
 
 }
 
@@ -12,3 +13,4 @@ var pwdcheck = function() {
         document.getElementById('pwdmsg').innerHTML = '<span><i class="fas fa-window-close"></i> Password not Match...!</span>';
     }
 }
+
