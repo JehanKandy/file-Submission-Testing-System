@@ -6,7 +6,9 @@ function validateform() {
         return false;
     }
     var useremail = document.forms["regform"]["email"].value
-    if ()
+    if (useremail == "" || useremail == null) {
+        document.getElementById('')
+    }
 
 
 }
