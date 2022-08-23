@@ -20,6 +20,13 @@ function validateform() {
         document.getElementById('password').style.borderColor = '#ff3f34';
         return false;
     }
+    var passlength = passuser.length;
+    if (passlength < 6) {
+        document.getElementById('upwd').style.color = '#ff3f34';
+        document.getElementById('upwd').innerHTML = '<span style="font-size:12px;">Password at least 6 characters</span>';
+        document.getElementById('password').style.borderColor = '#ff3f34';
+        return false;
+    }
     var cpassuser = document.forms["regform"]["cpassword"].value
     if (cpassuser == "" || cpassuser == null) {
         document.getElementById('ucpwd').style.color = '#ff3f34';
@@ -27,5 +34,9 @@ function validateform() {
         document.getElementById('cpassword').style.borderColor = '#ff3f34';
         return false;
     }
+
+    
+
+
 
 }
