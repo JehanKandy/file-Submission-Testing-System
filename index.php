@@ -19,5 +19,5 @@
     </div>
 </div>
 
-
+<script src="js/script.js"></script>
 <?php include("lib/layouts/footer.php"); ?>
