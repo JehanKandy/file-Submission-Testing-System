@@ -22,8 +22,6 @@
             <input type="submit" value="Register" name="register" class="reg-btn">
         </form>
         <hr>
-        <p id="usernlength" class="username-error">Username at least 5 characters</p>
-        <hr>
         Already have an Account ? <a href="../../index.php">Login</a>
     </div>
 </div>
