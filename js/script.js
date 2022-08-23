@@ -48,5 +48,6 @@ function validatelogin() {
     var loginuser = document.forms["loginform"]["loginusername"].value
     if (loginuser == "" || loginuser == null) {
         document.getElementById('loginusername').style.color = '#ff3f34';
+        document.getElementById('loginusername').innerHTML = '<span style="font-size:12px;">Username Cannot be empty</span>';
     }
 }
