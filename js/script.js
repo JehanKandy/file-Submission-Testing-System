@@ -18,8 +18,10 @@ function validateform() {
 
     if (standardemail.text(useremail)) {
         alert("Hi");
+        return true;
     } else {
         alert("No");
+        return false;
     }
 
 }
