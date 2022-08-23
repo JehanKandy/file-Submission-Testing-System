@@ -10,21 +10,22 @@ function validateform() {
     if (useremail == "" || useremail == null) {
         document.getElementById('uemail').style.color = '#ff3f34';
         document.getElementById('uemail').innerHTML = '<span style="font-size:12px;">Email Cannot be empty</span>';
+        document.getElementById('email').style.borderColor = '#ff3f34';
         return false;
     }
     var passuser = document.forms["regform"]["password"].value
-
-
-}
-
-
-
-var pwdcheck = function() {
-    if (document.getElementById('password').value == document.getElementById('cpassword').value) {
-        document.getElementById('pwdmsg').style.color = '#0f0';
-        document.getElementById('pwdmsg').innerHTML = '<span><i class="fas fa-check-circle"></i> Password is Match...!</span>';
-    } else {
-        document.getElementById('pwdmsg').style.color = '#ff3f34';
-        document.getElementById('pwdmsg').innerHTML = '<span><i class="fas fa-window-close"></i> Password not Match...!</span>';
+    if (passuser == "" || passuser == null) {
+        document.getElementById('upwd').style.color = '#ff3f34';
+        document.getElementById('upwd').innerHTML = '<span style="font-size:12px;">Password Cannot be empty</span>';
+        document.getElementById('password').style.borderColor = '#ff3f34';
+        return false;
     }
+    var cpassuser = document.forms["regform"]["cpassword"].value
+    if (cpassuser == "" || cpassuser == null) {
+        document.getElementById('ucpwd').style.color = '#ff3f34';
+        document.getElementById('ucpwd').innerHTML = '<span style="font-size:12px;">Password Cannot be empty</span>';
+        document.getElementById('cpassword').style.borderColor = '#ff3f34';
+        return false;
+    }
+
 }
