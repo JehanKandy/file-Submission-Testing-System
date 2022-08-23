@@ -5,6 +5,10 @@ function validateform() {
         document.getElementById('uname').innerHTML = '<span>Username connot be empty</span>';
         return false;
     }
+    var useremail = document.forms["regform"]["email"].value
+    if ()
+
+
 }
 
 
