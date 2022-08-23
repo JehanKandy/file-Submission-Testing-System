@@ -43,6 +43,8 @@ function validateform() {
         return false;
     }
 }
-function validatelogin(){
-    
+
+function validatelogin() {
+    var loginuser = document.forms["loginform"]["loginusername"].value
+
 }
