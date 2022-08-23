@@ -13,16 +13,6 @@ function validateform() {
         return false;
     }
 
-    //standard email address chack
-    var standardemail = /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+){.[a-z]+}?$/
-
-    if (standardemail.text(useremail)) {
-        alert("Hi");
-        return true;
-    } else {
-        alert("No");
-        return false;
-    }
 
 }
 
