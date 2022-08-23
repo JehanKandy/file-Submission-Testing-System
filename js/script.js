@@ -1,6 +1,10 @@
 function validateform() {
     var usern = document.forms["regform"]["username"].value
-
+    if (usern == "" || usern == null) {
+        document.getElementById('uname').style.color = '#ff3f34';
+        document.getElementById('uname').innerHTML = '<span>Username connot be empty</span>';
+        return false;
+    }
 }
 
 
@@ -13,4 +17,3 @@ var pwdcheck = function() {
         document.getElementById('pwdmsg').innerHTML = '<span><i class="fas fa-window-close"></i> Password not Match...!</span>';
     }
 }
-
