@@ -8,19 +8,21 @@
         <i class="fas fa-user-plus"></i> Register Here
     </div>
     <div class="login-body">
-        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
+        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post" name="regform" onsubmit="return validateform()">
             <label for="Username">Username : </label><br>
-            <input type="text" name="username" id="username" class="login-input" onkeyup="pwdcheck()" required><span id="uname"></span><br>
+            <input type="text" name="username" id="username" class="login-input" onkeyup="pwdcheck()"><span id="uname"></span><br>
             <label for="Email">Email : </label><br>
-            <input type="email" name="email" id="email" class="login-input" onkeyup="pwdcheck()" required><span id="uemail"></span><br>
+            <input type="email" name="email" id="email" class="login-input" onkeyup="pwdcheck()"><span id="uemail"></span><br>
             <label for="Password">Password : </label><br>
-            <input type="password" name="password" id="password" class="login-input" onkeyup="pwdcheck()" required><span id="upwd"></span><br>
+            <input type="password" name="password" id="password" class="login-input" onkeyup="pwdcheck()"><span id="upwd"></span><br>
             <label for="Cpassword">Confirm Password : </label><br>
-            <input type="password" name="cpassword" id="cpassword" class="login-input" onkeyup="pwdcheck()" required><span id="ucpwd"></span>
+            <input type="password" name="cpassword" id="cpassword" class="login-input" onkeyup="pwdcheck()"><span id="ucpwd"></span>
             <p id="pwdmsg"></p>
             <input type="reset" value="Clear" class="clear-btn">
             <input type="submit" value="Register" name="register" class="reg-btn">
         </form>
+        <hr>
+        <p id="usernlength">Username at least 5 characters</p>
         <hr>
         Already have an Account ? <a href="../../index.php">Login</a>
     </div>
