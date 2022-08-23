@@ -12,9 +12,11 @@ function validateform() {
         document.getElementById('uemail').innerHTML = '<span>Email Cannot be empty</span>';
         return false;
     }
-    
-    var usernlength = usern.length;
 
+    var usernlength = usern.length;
+    if(usernlength < 5 && usernlength > 20){
+        document.getElementById('')
+    } 
 
 }
 
