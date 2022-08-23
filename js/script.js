@@ -16,6 +16,7 @@ function validateform() {
     var usernlength = usern.length;
     if (usernlength < 5 && usernlength > 20) {
         document.getElementById('usernlength').style.color = '#0f0';
+        document.getElementById('usernlength').innerHTML = '<span></span>';
     }
 
 }
