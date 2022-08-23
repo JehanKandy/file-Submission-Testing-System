@@ -12,6 +12,7 @@ function validateform() {
         document.getElementById('uemail').innerHTML = '<span style="font-size:12px;">Email Cannot be empty</span>';
         return false;
     }
+    var passuser = document.forms["regform"]["password"].value
 
 
 }
