@@ -10,14 +10,13 @@
     <div class="login-body">
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post" name="regform" onsubmit="return validateform()">
             <label for="Username">Username : </label><br>
-            <input type="text" name="username" id="username" class="login-input" onkeyup="pwdcheck()"><span id="uname"></span><br>
+            <input type="text" name="username" id="username" class="login-input" "><span id="uname"></span><br>
             <label for="Email">Email : </label><br>
-            <input type="email" name="email" id="email" class="login-input" onkeyup="pwdcheck()"><span id="uemail"></span><br>
+            <input type="email" name="email" id="email" class="login-input" "><span id="uemail"></span><br>
             <label for="Password">Password : </label><br>
-            <input type="password" name="password" id="password" class="login-input" onkeyup="pwdcheck()"><span id="upwd"></span><br>
+            <input type="password" name="password" id="password" class="login-input" ><span id="upwd"></span><br>
             <label for="Cpassword">Confirm Password : </label><br>
-            <input type="password" name="cpassword" id="cpassword" class="login-input" onkeyup="pwdcheck()"><span id="ucpwd"></span>
-            <p id="pwdmsg"></p>
+            <input type="password" name="cpassword" id="cpassword" class="login-input" ><span id="ucpwd"></span>
             <input type="reset" value="Clear" class="clear-btn">
             <input type="submit" value="Register" name="register" class="reg-btn">
         </form>
