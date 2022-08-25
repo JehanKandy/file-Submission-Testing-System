@@ -39,7 +39,7 @@ Start the System
  <br><hr><br>
 <b>22 August 2022</b>
   1. UPDATE 
-
+  - lib/views/reg.php
   
   2. DEVELOP 
   - lib
