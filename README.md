@@ -47,6 +47,7 @@ Start the System
   - - - lib/function/config.php
   - - - lib/function/function.php
   - - lib/views
+  - - - lib/views/waiting.php
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
