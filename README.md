@@ -46,6 +46,7 @@ Start the System
   - - lib/function
   - - - lib/function/config.php
   - - - lib/function/function.php
+  - - lib/views
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
