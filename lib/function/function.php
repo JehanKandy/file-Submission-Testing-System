@@ -28,6 +28,9 @@
 
     function login_user($login_username, $login_password){
         $con = Connection();
+
+        $login_user = "SELECT * FROM user_tbl WHERE username = '$login_username' && '$login_password' && is_pending = '0' && user_status = '1'";
+        $login_user_result = mysqli_query($con,$login_user);
         
     }
 
