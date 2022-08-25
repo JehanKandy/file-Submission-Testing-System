@@ -44,6 +44,7 @@ Start the System
   2. DEVELOP 
   - lib
   - - lib/function
+  - - - lib/function/config.php
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
