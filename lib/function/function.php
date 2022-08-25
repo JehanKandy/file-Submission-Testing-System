@@ -7,7 +7,7 @@
         $con = Connection();
 
         $check_user = "SELECT * FROM user_tbl WHERE username = '$username' && email = '$email'";
-        
+        $check_user_result = mysqli_query($con, $check_user);
     }
     
 
