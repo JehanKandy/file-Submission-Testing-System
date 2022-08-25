@@ -10,7 +10,7 @@
     <div class="login-body">
         <?php 
             include("../function/function.php");
-            if(){
+            if(isset($_POST['register'])){
                 
             }
         
