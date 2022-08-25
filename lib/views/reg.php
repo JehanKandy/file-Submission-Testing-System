@@ -8,6 +8,13 @@
         <i class="fas fa-user-plus"></i> Register Here
     </div>
     <div class="login-body">
+        <?php 
+            include("../function/function.php");
+            if(){
+                
+            }
+        
+        ?>
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post" name="regform" onsubmit="return validateform()">
             <label for="Username">Username : </label><br>
             <input type="text" name="username" id="username" class="login-input" "><span id="uname"></span><br>
@@ -20,7 +27,6 @@
             <p id="passerror"></p>
             <input type="reset" value="Clear" class="clear-btn">
             <input type="submit" value="Register" name="register" class="reg-btn">
-
         </form>
         <hr>
         Already have an Account ? <a href="../../index.php">Login</a>
