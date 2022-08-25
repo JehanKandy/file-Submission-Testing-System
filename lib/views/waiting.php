@@ -10,7 +10,8 @@
     </div>
     <div class="waiting-body">
         Hi <?php user_id(); ?>, <br>
-        your account approval is pending
+        your account approval is pending <br><br>
+        it will takes 10 minutes for approval the account <br>
     </div>
 </div>
 
