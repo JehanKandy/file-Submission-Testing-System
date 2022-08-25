@@ -16,7 +16,7 @@
         }else{
             $insert_user = "INSERT INTO user_tbl(username,email,pass1,roll,user_status)VALUES('$username','$email','$password','student','1')";
             $insert_user_result = mysqli_query($con,$insert_user);
-            header("location:../../index.php");
+            header("../views/waiting.php");            
         }
     }
 
@@ -25,6 +25,8 @@
         $userid = strval($_SESSION['userId']);
         echo $userid;
     }
+
+
     
 
 ?>
