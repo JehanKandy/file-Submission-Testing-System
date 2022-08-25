@@ -10,7 +10,7 @@
         $check_user_result = mysqli_query($con, $check_user);
         $user_nor = mysqli_num_rows($check_user_result);
         
-        $_SESSION['userId'] = $email;
+        $_SESSION['userId'] = $username;
         if($user_nor > 0){
             return "<span style='color:red;'>User Already Exists..!</span>";
         }else{
