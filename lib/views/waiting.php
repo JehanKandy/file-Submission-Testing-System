@@ -5,6 +5,7 @@
 <div class="waiting-content">
     <div class="waiting-title">
         Pending Approval 
+        <hr>
     </div>
     <div class="waiting-body">
         your account approval is pending
