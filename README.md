@@ -42,6 +42,7 @@ Start the System
   - index.php
   
   2. DEVELOP 
+  - lib
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
