@@ -26,6 +26,10 @@
         echo $userid;
     }
 
+    function login_user($login_username, $login_password){
+        $con = Connection();
+        
+    }
 
     
 
