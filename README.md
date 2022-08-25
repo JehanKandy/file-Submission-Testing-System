@@ -40,6 +40,7 @@ Start the System
 <b>22 August 2022</b>
   1. UPDATE 
   - lib/views/reg.php
+  - css/style.css
   
   2. DEVELOP 
   - lib
