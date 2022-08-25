@@ -3,7 +3,7 @@
         $server = "localhost";
         $user = "root";
         $pass = "";
-        $db_name = "";
+        $db_name = "file_submission";
     }
 
 ?>
