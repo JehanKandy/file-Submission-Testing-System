@@ -12,6 +12,8 @@
         Hi <?php user_id(); ?>, <br>
         your account approval is pending <br><br>
         it will takes 10 minutes for approval the account <br>
+        <br>
+        <a href="../../index.php"><button class="btn btn-primary">back to the login page</button></a>
     </div>
 </div>
 
