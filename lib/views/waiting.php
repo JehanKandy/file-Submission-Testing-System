@@ -9,7 +9,7 @@
         <hr>
     </div>
     <div class="waiting-body">
-        Hi <?php user_id(); ?>
+        Hi <?php user_id(); ?>, <br>
         your account approval is pending
     </div>
 </div>
