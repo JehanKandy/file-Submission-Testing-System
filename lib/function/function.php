@@ -21,7 +21,9 @@
     }
 
     function user_id(){
-        
+        $con = Connection();
+        $userid = strval($_SESSION['userId']);
+        echo $userid;
     }
     
 
