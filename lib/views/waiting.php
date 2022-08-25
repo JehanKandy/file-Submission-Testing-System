@@ -4,8 +4,9 @@
 
 <div class="waiting-content">
     <div class="waiting-title">
-        
+        Pending Approval 
     </div>
+    your account approval is pending
 </div>
 
 <?php include("../layouts/footer.php"); ?>
