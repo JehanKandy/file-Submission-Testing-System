@@ -11,7 +11,8 @@
         <?php 
             include("../function/function.php");
             if(isset($_POST['register'])){
-                $result = reg_user($_POST[''])
+                $result = reg_user($_POST['username'],$_POST['email'],$_POST['password']);
+                echo $result;
             }
         
         ?>
