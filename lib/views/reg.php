@@ -11,11 +11,11 @@
         <?php 
             include("../function/function.php");
             if(isset($_POST['register'])){
-                
+                $result = reg_user($_POST[''])
             }
         
         ?>
-        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post" name="regform" onsubmit="return validateform()">
+        <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST" name="regform" onsubmit="return validateform()">
             <label for="Username">Username : </label><br>
             <input type="text" name="username" id="username" class="login-input" "><span id="uname"></span><br>
             <label for="Email">Email : </label><br>
