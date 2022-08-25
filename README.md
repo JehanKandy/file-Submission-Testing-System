@@ -43,6 +43,7 @@ Start the System
   
   2. DEVELOP 
   - lib
+  - lib/function
 
 <br><hr>
 DEVELOPED BY JEHANKANDY on August 2022
