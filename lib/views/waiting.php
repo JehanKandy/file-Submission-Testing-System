@@ -6,7 +6,9 @@
     <div class="waiting-title">
         Pending Approval 
     </div>
-    your account approval is pending
+    <div class="waiting-body">
+        your account approval is pending
+    </div>
 </div>
 
 <?php include("../layouts/footer.php"); ?>
