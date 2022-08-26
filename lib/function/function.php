@@ -35,7 +35,9 @@
         $login_user_row = mysqli_fetch_assoc($login_user_result);
 
         if($login_user_nor > 0){
-            if()
+            if($login_user_row['roll'] == 'student'){
+                
+            }
         }
 
 
