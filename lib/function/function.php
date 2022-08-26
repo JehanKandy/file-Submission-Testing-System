@@ -45,6 +45,8 @@
                 $_SESSION['loginSession'] = $login_user_row['email'];
                 header("location:../routes/student.php");
             }
+        }else{
+            return "<span style='color:red;'>No recodes Found...!</span>";
         }
 
 
