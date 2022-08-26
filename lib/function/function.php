@@ -36,7 +36,7 @@
 
         if($login_user_nor > 0){
             if($login_user_row['roll'] == 'student'){
-                
+                setcookie('login',$login_user_row['email'],time()+60*60,'/');
             }
         }
 
