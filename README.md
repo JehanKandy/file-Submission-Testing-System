@@ -58,6 +58,7 @@ Start the System
 <b>26 August 2022</b>
   1. UPDATE 
   - lib/function/function.php
+  - index.php
   
   2. DEVELOP 
 
