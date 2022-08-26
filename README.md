@@ -28,6 +28,7 @@ Start the System
   - - - lib/views/reset_pass.php
   - js
   - - js/script.js
+  
 <br><hr><br>
 
 
