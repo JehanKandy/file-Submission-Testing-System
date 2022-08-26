@@ -57,7 +57,7 @@ Start the System
 <br><hr><br>
 <b>26 August 2022</b>
   1. UPDATE 
-
+  - lib/function/functin.php
   
   2. DEVELOP 
 
