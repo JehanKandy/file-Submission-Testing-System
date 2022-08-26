@@ -9,7 +9,8 @@
     <div class="login-body">
         <?php 
             if(isset($_POST['login'])){
-
+                $result = login_user($_POST['loginusername'], md5($_POST['loginpassword']));
+                echo $result;
             }
         ?> 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post" name="loginform" onsubmit="return validatelogin()">
