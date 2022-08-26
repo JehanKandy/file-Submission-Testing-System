@@ -32,8 +32,12 @@
         $login_user = "SELECT * FROM user_tbl WHERE username = '$login_username' && '$login_password' && is_pending = '0' && user_status = '1'";
         $login_user_result = mysqli_query($con,$login_user);
         $login_user_nor = mysqli_num_rows($login_user_result);
-        
-        
+        $login_user_row = mysqli_fetch_assoc($login_user_result);
+
+        if($login_user_nor > 0){
+            if()
+        }
+
 
     }
 
