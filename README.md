@@ -41,6 +41,7 @@ Start the System
   1. UPDATE 
   - lib/views/reg.php
   - css/style.css
+  - index.php
   
   2. DEVELOP 
   - lib
