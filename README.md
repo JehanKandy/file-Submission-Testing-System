@@ -54,7 +54,7 @@ Start the System
   - - lib/views
   - - - lib/views/waiting.php
 
- <br><hr><br>
+<br><hr><br>
 <b>22 August 2022</b>
   1. UPDATE 
   - lib/views/reg.php
