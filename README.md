@@ -39,7 +39,7 @@ Start the System
   - css/style.css
   
   
- <br><hr><br>
+<br><hr><br>
 <b>25 August 2022</b>
   1. UPDATE 
   - lib/views/reg.php
