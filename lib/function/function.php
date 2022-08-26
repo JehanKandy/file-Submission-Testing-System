@@ -38,12 +38,12 @@
             if($login_user_row['roll'] == 'student'){
                 setcookie('login',$login_user_row['email'],time()+60*60,'/');
                 $_SESSION['loginSession'] = $login_user_row['email'];
-                header("location:../routes/student.php");
+                header("location:routes/student.php");
             }
             elseif($login_user_row['roll'] == 'admin'){
                 setcookie('login',$login_user_row['email'],time()+60*60,'/');
                 $_SESSION['loginSession'] = $login_user_row['email'];
-                header("location:../routes/admin.php");
+                header("location:routes/admin.php");
             }
         }else{
             return "<span style='color:red;'>No recodes Found...!</span>";
