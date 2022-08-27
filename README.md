@@ -60,8 +60,6 @@ Start the System
   - lib/function/function.php
   - index.php
   
-  2. DEVELOP 
-
   
 <br><hr>
 
