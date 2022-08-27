@@ -73,6 +73,7 @@ Start the System
   - - - lib/layouts/nav_loged.php
   - - lib/routes
   - - - lib/routes/admin.php
+  - - - lib/routes/student.php
 
 
 <br><hr>
