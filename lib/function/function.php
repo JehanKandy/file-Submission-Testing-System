@@ -52,6 +52,10 @@
 
     function login_id(){
         $con = Connection();
+
+        $email = strval($_SESSION['LoginSession']);
+        $get_user_id = "SELECT * FROM user_tbl WHERE email = '$email'";
+        
     }
     
 
