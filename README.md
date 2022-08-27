@@ -66,12 +66,7 @@ Start the System
 
   
   2. DEVELOP 
-  - lib
-  - - lib/function
-  - - - lib/function/config.php
-  - - - lib/function/function.php
-  - - lib/views
-  - - - lib/views/waiting.php
+
 
 <br><hr>
 
