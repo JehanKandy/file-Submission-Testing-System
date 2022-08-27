@@ -70,6 +70,7 @@ Start the System
   - - lib/views
   - - - lib/views/logout.php
   - - lib/layouts
+  - - - lib/layouts/nav_loged.php
 
 
 <br><hr>
