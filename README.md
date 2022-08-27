@@ -71,6 +71,7 @@ Start the System
   - - - lib/views/logout.php
   - - lib/layouts
   - - - lib/layouts/nav_loged.php
+  - - lib/routes
 
 
 <br><hr>
