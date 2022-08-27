@@ -67,6 +67,7 @@ Start the System
   
   2. DEVELOP 
   - lib
+  - - lib/views
 
 
 <br><hr>
