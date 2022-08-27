@@ -68,6 +68,7 @@ Start the System
   2. DEVELOP 
   - lib
   - - lib/views
+  - - - lib/views/logout.php
 
 
 <br><hr>
