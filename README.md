@@ -63,7 +63,7 @@ Start the System
 <br><hr><br>
 <b>27 August 2022</b>
   1. UPDATE 
-
+  - lib/function/function.php
   
   2. DEVELOP 
   - lib
