@@ -69,6 +69,7 @@ Start the System
   - lib
   - - lib/views
   - - - lib/views/logout.php
+  - - lib/layouts
 
 
 <br><hr>
