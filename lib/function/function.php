@@ -55,7 +55,7 @@
 
         $email = strval($_SESSION['LoginSession']);
         $get_user_id = "SELECT * FROM user_tbl WHERE email = '$email'";
-        
+        $get_user_id_result = mysqli_query($con,$get_user_id);
     }
     
 
