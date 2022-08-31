@@ -5,3 +5,5 @@ if (empty($_SESSION['LoginSession'])) {
     header('location:../../index.php');
 }
 ?>
+
+<?php include("../layouts/footer.php");?>
